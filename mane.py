@@ -14,3 +14,5 @@ def mane_function(a, b):
       return c**2
     elif c < 0:
       return -c
+    else:
+      return 0
