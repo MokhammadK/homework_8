@@ -12,3 +12,5 @@ def mane_function(a, b):
   def test_function(c):
     if c > 0:
       return c**2
+    elif c < 0:
+      return -c
