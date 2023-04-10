@@ -7,12 +7,14 @@ def mane_function(a, b):
     return b 
   elif b == 0:
     return a
+  else:
+    return 0
 
-  
-  def test_function(c):
-    if c > 0:
+def test_function(c):
+   if c > 0:
       return c**2
-    elif c < 0:
+   elif c < 0:
       return -c
-    else:
+   else:
       return 0
+
