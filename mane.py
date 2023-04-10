@@ -7,3 +7,5 @@ def mane_function(a, b):
     return b 
   elif b == 0:
     return a
+  else:
+    return 0
