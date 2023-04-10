@@ -5,3 +5,5 @@ def mane_function(a, b):
     return b - a
   elif a == 0:
     return b 
+  elif b == 0:
+    return a
