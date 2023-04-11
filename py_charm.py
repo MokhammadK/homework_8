@@ -8,3 +8,5 @@ def love_or_tears(word):
     num_letters = len(word)
     if num_letters % 2 == 0:
         return "Love"
+    else:
+        return "Tears"
